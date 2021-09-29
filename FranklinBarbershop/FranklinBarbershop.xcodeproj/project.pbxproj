@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54165452704C2F200311D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165442704C2F200311D59 /* AppDelegate.swift */; };
+		F54165472704C2F200311D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165462704C2F200311D59 /* SceneDelegate.swift */; };
+		F54165492704C2F200311D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165482704C2F200311D59 /* ViewController.swift */; };
+		F541654C2704C2F200311D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541654A2704C2F200311D59 /* Main.storyboard */; };
+		F541654E2704C2F500311D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541654D2704C2F500311D59 /* Assets.xcassets */; };
+		F54165512704C2F500311D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541654F2704C2F500311D59 /* LaunchScreen.storyboard */; };
+		F541655C2704C2F500311D59 /* FranklinBarbershopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541655B2704C2F500311D59 /* FranklinBarbershopTests.swift */; };
+		F54165662704C2F500311D59 /* FranklinBarbershopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165652704C2F500311D59 /* FranklinBarbershopUITests.swift */; };
+		F54165682704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F54165582704C2F500311D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54165392704C2F200311D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54165402704C2F200311D59;
+			remoteInfo = FranklinBarbershop;
+		};
+		F54165622704C2F500311D59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F54165392704C2F200311D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F54165402704C2F200311D59;
+			remoteInfo = FranklinBarbershop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F54165412704C2F200311D59 /* FranklinBarbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranklinBarbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54165442704C2F200311D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F54165462704C2F200311D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F54165482704C2F200311D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F541654B2704C2F200311D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F541654D2704C2F500311D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F54165502704C2F500311D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F54165522704C2F500311D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54165572704C2F500311D59 /* FranklinBarbershopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FranklinBarbershopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F541655B2704C2F500311D59 /* FranklinBarbershopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinBarbershopTests.swift; sourceTree = "<group>"; };
+		F54165612704C2F500311D59 /* FranklinBarbershopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FranklinBarbershopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54165652704C2F500311D59 /* FranklinBarbershopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinBarbershopUITests.swift; sourceTree = "<group>"; };
+		F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinBarbershopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F541653E2704C2F200311D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54165542704C2F500311D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541655E2704C2F500311D59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54165382704C2F200311D59 = {
+			isa = PBXGroup;
+			children = (
+				F54165432704C2F200311D59 /* FranklinBarbershop */,
+				F541655A2704C2F500311D59 /* FranklinBarbershopTests */,
+				F54165642704C2F500311D59 /* FranklinBarbershopUITests */,
+				F54165422704C2F200311D59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54165422704C2F200311D59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54165412704C2F200311D59 /* FranklinBarbershop.app */,
+				F54165572704C2F500311D59 /* FranklinBarbershopTests.xctest */,
+				F54165612704C2F500311D59 /* FranklinBarbershopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54165432704C2F200311D59 /* FranklinBarbershop */ = {
+			isa = PBXGroup;
+			children = (
+				F54165442704C2F200311D59 /* AppDelegate.swift */,
+				F54165462704C2F200311D59 /* SceneDelegate.swift */,
+				F54165482704C2F200311D59 /* ViewController.swift */,
+				F541654A2704C2F200311D59 /* Main.storyboard */,
+				F541654D2704C2F500311D59 /* Assets.xcassets */,
+				F541654F2704C2F500311D59 /* LaunchScreen.storyboard */,
+				F54165522704C2F500311D59 /* Info.plist */,
+			);
+			path = FranklinBarbershop;
+			sourceTree = "<group>";
+		};
+		F541655A2704C2F500311D59 /* FranklinBarbershopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F541655B2704C2F500311D59 /* FranklinBarbershopTests.swift */,
+			);
+			path = FranklinBarbershopTests;
+			sourceTree = "<group>";
+		};
+		F54165642704C2F500311D59 /* FranklinBarbershopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F54165652704C2F500311D59 /* FranklinBarbershopUITests.swift */,
+				F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */,
+			);
+			path = FranklinBarbershopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54165402704C2F200311D59 /* FranklinBarbershop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F541656B2704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershop" */;
+			buildPhases = (
+				F541653D2704C2F200311D59 /* Sources */,
+				F541653E2704C2F200311D59 /* Frameworks */,
+				F541653F2704C2F200311D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FranklinBarbershop;
+			productName = FranklinBarbershop;
+			productReference = F54165412704C2F200311D59 /* FranklinBarbershop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F54165562704C2F500311D59 /* FranklinBarbershopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F541656E2704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershopTests" */;
+			buildPhases = (
+				F54165532704C2F500311D59 /* Sources */,
+				F54165542704C2F500311D59 /* Frameworks */,
+				F54165552704C2F500311D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54165592704C2F500311D59 /* PBXTargetDependency */,
+			);
+			name = FranklinBarbershopTests;
+			productName = FranklinBarbershopTests;
+			productReference = F54165572704C2F500311D59 /* FranklinBarbershopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F54165602704C2F500311D59 /* FranklinBarbershopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54165712704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershopUITests" */;
+			buildPhases = (
+				F541655D2704C2F500311D59 /* Sources */,
+				F541655E2704C2F500311D59 /* Frameworks */,
+				F541655F2704C2F500311D59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F54165632704C2F500311D59 /* PBXTargetDependency */,
+			);
+			name = FranklinBarbershopUITests;
+			productName = FranklinBarbershopUITests;
+			productReference = F54165612704C2F500311D59 /* FranklinBarbershopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54165392704C2F200311D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F54165402704C2F200311D59 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F54165562704C2F500311D59 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F54165402704C2F200311D59;
+					};
+					F54165602704C2F500311D59 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F54165402704C2F200311D59;
+					};
+				};
+			};
+			buildConfigurationList = F541653C2704C2F200311D59 /* Build configuration list for PBXProject "FranklinBarbershop" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F54165382704C2F200311D59;
+			productRefGroup = F54165422704C2F200311D59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54165402704C2F200311D59 /* FranklinBarbershop */,
+				F54165562704C2F500311D59 /* FranklinBarbershopTests */,
+				F54165602704C2F500311D59 /* FranklinBarbershopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F541653F2704C2F200311D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54165512704C2F500311D59 /* LaunchScreen.storyboard in Resources */,
+				F541654E2704C2F500311D59 /* Assets.xcassets in Resources */,
+				F541654C2704C2F200311D59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54165552704C2F500311D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541655F2704C2F500311D59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F541653D2704C2F200311D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54165492704C2F200311D59 /* ViewController.swift in Sources */,
+				F54165452704C2F200311D59 /* AppDelegate.swift in Sources */,
+				F54165472704C2F200311D59 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F54165532704C2F500311D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F541655C2704C2F500311D59 /* FranklinBarbershopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F541655D2704C2F500311D59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54165662704C2F500311D59 /* FranklinBarbershopUITests.swift in Sources */,
+				F54165682704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F54165592704C2F500311D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54165402704C2F200311D59 /* FranklinBarbershop */;
+			targetProxy = F54165582704C2F500311D59 /* PBXContainerItemProxy */;
+		};
+		F54165632704C2F500311D59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F54165402704C2F200311D59 /* FranklinBarbershop */;
+			targetProxy = F54165622704C2F500311D59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F541654A2704C2F200311D59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F541654B2704C2F200311D59 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F541654F2704C2F500311D59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54165502704C2F500311D59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54165692704C2F500311D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F541656A2704C2F500311D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F541656C2704C2F500311D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FranklinBarbershop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F541656D2704C2F500311D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FranklinBarbershop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F541656F2704C2F500311D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FranklinBarbershop.app/FranklinBarbershop";
+			};
+			name = Debug;
+		};
+		F54165702704C2F500311D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FranklinBarbershop.app/FranklinBarbershop";
+			};
+			name = Release;
+		};
+		F54165722704C2F500311D59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FranklinBarbershop;
+			};
+			name = Debug;
+		};
+		F54165732704C2F500311D59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MKPAR8VJYY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.milin.FranklinBarbershopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FranklinBarbershop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F541653C2704C2F200311D59 /* Build configuration list for PBXProject "FranklinBarbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54165692704C2F500311D59 /* Debug */,
+				F541656A2704C2F500311D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F541656B2704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F541656C2704C2F500311D59 /* Debug */,
+				F541656D2704C2F500311D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F541656E2704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F541656F2704C2F500311D59 /* Debug */,
+				F54165702704C2F500311D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54165712704C2F500311D59 /* Build configuration list for PBXNativeTarget "FranklinBarbershopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54165722704C2F500311D59 /* Debug */,
+				F54165732704C2F500311D59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54165392704C2F200311D59 /* Project object */;
+}
