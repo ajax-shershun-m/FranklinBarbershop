@@ -1,5 +1,5 @@
 //
-//  HomeCoordinator.swift
+//  ServicesCoordinator.swift
 //  FranklinBarbershop
 //
 //  Created by Maksim Shershun on 29.09.2021.
@@ -8,7 +8,7 @@
 import UIKit
 import RxSwift
 
-class HomeCoordinator: Coordinator<Void> {
+class ServicesCoordinator: Coordinator<Void> {
 	private weak var navigationController: UINavigationController!
     
     init(navigationController: UINavigationController) {
@@ -16,8 +16,8 @@ class HomeCoordinator: Coordinator<Void> {
     }
     
     override func start() {
-		let viewController = HomeViewController()
-        viewController.viewModel = HomeViewModel(coordinator: self)
+		let viewController = ServicesViewController()
+        viewController.viewModel = ServicesViewModel(coordinator: self)
         presentedViewController = viewController
     }
 }

@@ -1,5 +1,5 @@
 //
-//  AppointmentsCoordinator.swift
+//  ContactsCoordinator.swift
 //  FranklinBarbershop
 //
 //  Created by Maksim Shershun on 29.09.2021.
@@ -8,7 +8,7 @@
 import UIKit
 import RxSwift
 
-class AppointmentsCoordinator: Coordinator<Void> {
+class ContactsCoordinator: Coordinator<Void> {
 	private weak var navigationController: UINavigationController!
     
     init(navigationController: UINavigationController) {
@@ -16,8 +16,8 @@ class AppointmentsCoordinator: Coordinator<Void> {
     }
     
     override func start() {
-		let viewController = AppointmentsViewController()
-        viewController.viewModel = AppointmentsViewModel(coordinator: self)
+		let viewController = ContactsViewController()
+        viewController.viewModel = ContactsViewModel(coordinator: self)
         presentedViewController = viewController
     }
 }

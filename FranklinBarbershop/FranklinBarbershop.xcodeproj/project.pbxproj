@@ -23,12 +23,15 @@
 		F54165802704C4D200311D59 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541657F2704C4D200311D59 /* ProfileCoordinator.swift */; };
 		F54165822704C4DF00311D59 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165812704C4DF00311D59 /* ProfileViewController.swift */; };
 		F54165842704C50F00311D59 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165832704C50F00311D59 /* ProfileViewModel.swift */; };
-		F54165892704C54300311D59 /* AppointmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165862704C54300311D59 /* AppointmentsCoordinator.swift */; };
-		F541658A2704C54300311D59 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165872704C54300311D59 /* AppointmentsViewModel.swift */; };
-		F541658B2704C54300311D59 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165882704C54300311D59 /* AppointmentsViewController.swift */; };
-		F54165902704C54A00311D59 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658D2704C54A00311D59 /* HomeViewModel.swift */; };
-		F54165912704C54A00311D59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658E2704C54A00311D59 /* HomeViewController.swift */; };
-		F54165922704C54A00311D59 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658F2704C54A00311D59 /* HomeCoordinator.swift */; };
+		F54165892704C54300311D59 /* MastersCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165862704C54300311D59 /* MastersCoordinator.swift */; };
+		F541658A2704C54300311D59 /* MastersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165872704C54300311D59 /* MastersViewModel.swift */; };
+		F541658B2704C54300311D59 /* MastersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165882704C54300311D59 /* MastersViewController.swift */; };
+		F54165902704C54A00311D59 /* ServicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658D2704C54A00311D59 /* ServicesViewModel.swift */; };
+		F54165912704C54A00311D59 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658E2704C54A00311D59 /* ServicesViewController.swift */; };
+		F54165922704C54A00311D59 /* ServicesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658F2704C54A00311D59 /* ServicesCoordinator.swift */; };
+		F54165972704C8BC00311D59 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165942704C8BC00311D59 /* ContactsViewModel.swift */; };
+		F54165982704C8BC00311D59 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165952704C8BC00311D59 /* ContactsCoordinator.swift */; };
+		F54165992704C8BC00311D59 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165962704C8BC00311D59 /* ContactsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,12 +78,15 @@
 		F541657F2704C4D200311D59 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		F54165812704C4DF00311D59 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		F54165832704C50F00311D59 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
-		F54165862704C54300311D59 /* AppointmentsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsCoordinator.swift; sourceTree = "<group>"; };
-		F54165872704C54300311D59 /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
-		F54165882704C54300311D59 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
-		F541658D2704C54A00311D59 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		F541658E2704C54A00311D59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		F541658F2704C54A00311D59 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		F54165862704C54300311D59 /* MastersCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MastersCoordinator.swift; sourceTree = "<group>"; };
+		F54165872704C54300311D59 /* MastersViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MastersViewModel.swift; sourceTree = "<group>"; };
+		F54165882704C54300311D59 /* MastersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MastersViewController.swift; sourceTree = "<group>"; };
+		F541658D2704C54A00311D59 /* ServicesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewModel.swift; sourceTree = "<group>"; };
+		F541658E2704C54A00311D59 /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		F541658F2704C54A00311D59 /* ServicesCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesCoordinator.swift; sourceTree = "<group>"; };
+		F54165942704C8BC00311D59 /* ContactsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		F54165952704C8BC00311D59 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		F54165962704C8BC00311D59 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,8 +212,9 @@
 		F54165782704C48100311D59 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				F541658C2704C54A00311D59 /* Home */,
-				F54165852704C54300311D59 /* Appointments */,
+				F54165932704C89800311D59 /* Contacts */,
+				F541658C2704C54A00311D59 /* Services */,
+				F54165852704C54300311D59 /* Masters */,
 				F541657E2704C4C300311D59 /* Profile */,
 				F54165792704C49300311D59 /* Main */,
 			);
@@ -233,24 +240,34 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		F54165852704C54300311D59 /* Appointments */ = {
+		F54165852704C54300311D59 /* Masters */ = {
 			isa = PBXGroup;
 			children = (
-				F54165862704C54300311D59 /* AppointmentsCoordinator.swift */,
-				F54165882704C54300311D59 /* AppointmentsViewController.swift */,
-				F54165872704C54300311D59 /* AppointmentsViewModel.swift */,
+				F54165862704C54300311D59 /* MastersCoordinator.swift */,
+				F54165882704C54300311D59 /* MastersViewController.swift */,
+				F54165872704C54300311D59 /* MastersViewModel.swift */,
 			);
-			path = Appointments;
+			path = Masters;
 			sourceTree = "<group>";
 		};
-		F541658C2704C54A00311D59 /* Home */ = {
+		F541658C2704C54A00311D59 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F541658F2704C54A00311D59 /* HomeCoordinator.swift */,
-				F541658E2704C54A00311D59 /* HomeViewController.swift */,
-				F541658D2704C54A00311D59 /* HomeViewModel.swift */,
+				F541658F2704C54A00311D59 /* ServicesCoordinator.swift */,
+				F541658E2704C54A00311D59 /* ServicesViewController.swift */,
+				F541658D2704C54A00311D59 /* ServicesViewModel.swift */,
 			);
-			path = Home;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F54165932704C89800311D59 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				F54165952704C8BC00311D59 /* ContactsCoordinator.swift */,
+				F54165962704C8BC00311D59 /* ContactsViewController.swift */,
+				F54165942704C8BC00311D59 /* ContactsViewModel.swift */,
+			);
+			path = Contacts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -493,18 +510,21 @@
 			files = (
 				F54165762704C3CA00311D59 /* Coordinator.swift in Sources */,
 				F54165492704C2F200311D59 /* ViewController.swift in Sources */,
-				F541658B2704C54300311D59 /* AppointmentsViewController.swift in Sources */,
+				F541658B2704C54300311D59 /* MastersViewController.swift in Sources */,
+				F54165992704C8BC00311D59 /* ContactsViewController.swift in Sources */,
 				F541657D2704C4B100311D59 /* MainTabBarController.swift in Sources */,
 				F54165452704C2F200311D59 /* AppDelegate.swift in Sources */,
-				F54165922704C54A00311D59 /* HomeCoordinator.swift in Sources */,
+				F54165922704C54A00311D59 /* ServicesCoordinator.swift in Sources */,
 				F54165822704C4DF00311D59 /* ProfileViewController.swift in Sources */,
 				F54165802704C4D200311D59 /* ProfileCoordinator.swift in Sources */,
-				F54165902704C54A00311D59 /* HomeViewModel.swift in Sources */,
-				F541658A2704C54300311D59 /* AppointmentsViewModel.swift in Sources */,
+				F54165902704C54A00311D59 /* ServicesViewModel.swift in Sources */,
+				F541658A2704C54300311D59 /* MastersViewModel.swift in Sources */,
 				F54165842704C50F00311D59 /* ProfileViewModel.swift in Sources */,
 				F541657B2704C4A100311D59 /* MainTabBarCoordinator.swift in Sources */,
-				F54165912704C54A00311D59 /* HomeViewController.swift in Sources */,
-				F54165892704C54300311D59 /* AppointmentsCoordinator.swift in Sources */,
+				F54165912704C54A00311D59 /* ServicesViewController.swift in Sources */,
+				F54165982704C8BC00311D59 /* ContactsCoordinator.swift in Sources */,
+				F54165972704C8BC00311D59 /* ContactsViewModel.swift in Sources */,
+				F54165892704C54300311D59 /* MastersCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,8 +12,9 @@ class MainCoordinator: Coordinator<Void> {
     private let window: UIWindow!
     private var navigationController: UINavigationController!
 
-    private var homeCoordinator: HomeCoordinator!
-    private var appointmentCoordinator: AppointmentsCoordinator!
+    private var servicesCoordinator: ServicesCoordinator!
+    private var mastersCoordinator: MastersCoordinator!
+    private var contactsCoordinator: ContactsCoordinator!
     private var profileCoordinator: ProfileCoordinator!
 
     init(window: UIWindow) {
@@ -35,22 +36,27 @@ class MainCoordinator: Coordinator<Void> {
     }
 
     private func setupTabs(tabBarController: UITabBarController) {
-        homeCoordinator = HomeCoordinator(navigationController: navigationController)
-        homeCoordinator.start()
-        let homeVC = homeCoordinator.presentedViewController ?? UIViewController()
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "tb_home"), selectedImage: UIImage(named: "face.tb_home"))
+        servicesCoordinator = ServicesCoordinator(navigationController: navigationController)
+        servicesCoordinator.start()
+        let servicesVC = servicesCoordinator.presentedViewController ?? UIViewController()
+        servicesVC.tabBarItem = UITabBarItem(title: "Services", image: UIImage(named: "ic_services"), selectedImage: UIImage(named: "ic_services"))
 
-        appointmentCoordinator = AppointmentsCoordinator(navigationController: navigationController)
-        appointmentCoordinator.start()
-        let appointmentVC = appointmentCoordinator.presentedViewController ?? UIViewController()
-        appointmentVC.tabBarItem = UITabBarItem(title: "Appointments", image: UIImage(named: "tb_appointments"), selectedImage: UIImage(named: "tb_appointments"))
+        mastersCoordinator = MastersCoordinator(navigationController: navigationController)
+        mastersCoordinator.start()
+        let mastersVC = mastersCoordinator.presentedViewController ?? UIViewController()
+        mastersVC.tabBarItem = UITabBarItem(title: "Masters", image: UIImage(named: "ic_masters"), selectedImage: UIImage(named: "ic_masters"))
+
+        contactsCoordinator = ContactsCoordinator(navigationController: navigationController)
+        contactsCoordinator.start()
+        let contactsVC = contactsCoordinator.presentedViewController ?? UIViewController()
+        contactsVC.tabBarItem = UITabBarItem(title: "Contacts", image: UIImage(named: "ic_contacts"), selectedImage: UIImage(named: "ic_contacts"))
 
         profileCoordinator = ProfileCoordinator(navigationController: navigationController)
         profileCoordinator.start()
         let profileVC = profileCoordinator.presentedViewController ?? UIViewController()
-        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: "tb_profile"), selectedImage: UIImage(named: "tb_profile"))
+        profileVC.tabBarItem = UITabBarItem(title: "Account", image: UIImage(named: "ic_account"), selectedImage: UIImage(named: "ic_account"))
 
-        tabBarController.setViewControllers([homeVC, appointmentVC, profileVC], animated: false)
+        tabBarController.setViewControllers([servicesVC, mastersVC, contactsVC, profileVC], animated: false)
         tabBarController.selectedIndex = 0
     }
 }
