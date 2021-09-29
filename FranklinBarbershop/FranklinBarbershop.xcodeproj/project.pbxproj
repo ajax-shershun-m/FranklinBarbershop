@@ -11,14 +11,24 @@
 		7B85930FF6900F52828F086E /* Pods_FranklinBarbershop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D5824B8D8F7D83FE24747EF /* Pods_FranklinBarbershop.framework */; };
 		B792097A4284C24E53266174 /* Pods_FranklinBarbershopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E16599BD553C077EDB1BE524 /* Pods_FranklinBarbershopTests.framework */; };
 		F54165452704C2F200311D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165442704C2F200311D59 /* AppDelegate.swift */; };
-		F54165472704C2F200311D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165462704C2F200311D59 /* SceneDelegate.swift */; };
 		F54165492704C2F200311D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165482704C2F200311D59 /* ViewController.swift */; };
-		F541654C2704C2F200311D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541654A2704C2F200311D59 /* Main.storyboard */; };
 		F541654E2704C2F500311D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F541654D2704C2F500311D59 /* Assets.xcassets */; };
 		F54165512704C2F500311D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F541654F2704C2F500311D59 /* LaunchScreen.storyboard */; };
 		F541655C2704C2F500311D59 /* FranklinBarbershopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541655B2704C2F500311D59 /* FranklinBarbershopTests.swift */; };
 		F54165662704C2F500311D59 /* FranklinBarbershopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165652704C2F500311D59 /* FranklinBarbershopUITests.swift */; };
 		F54165682704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */; };
+		F54165762704C3CA00311D59 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165752704C3CA00311D59 /* Coordinator.swift */; };
+		F541657B2704C4A100311D59 /* MainTabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541657A2704C4A100311D59 /* MainTabBarCoordinator.swift */; };
+		F541657D2704C4B100311D59 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541657C2704C4B100311D59 /* MainTabBarController.swift */; };
+		F54165802704C4D200311D59 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541657F2704C4D200311D59 /* ProfileCoordinator.swift */; };
+		F54165822704C4DF00311D59 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165812704C4DF00311D59 /* ProfileViewController.swift */; };
+		F54165842704C50F00311D59 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165832704C50F00311D59 /* ProfileViewModel.swift */; };
+		F54165892704C54300311D59 /* AppointmentsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165862704C54300311D59 /* AppointmentsCoordinator.swift */; };
+		F541658A2704C54300311D59 /* AppointmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165872704C54300311D59 /* AppointmentsViewModel.swift */; };
+		F541658B2704C54300311D59 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54165882704C54300311D59 /* AppointmentsViewController.swift */; };
+		F54165902704C54A00311D59 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658D2704C54A00311D59 /* HomeViewModel.swift */; };
+		F54165912704C54A00311D59 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658E2704C54A00311D59 /* HomeViewController.swift */; };
+		F54165922704C54A00311D59 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F541658F2704C54A00311D59 /* HomeCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +60,7 @@
 		E16599BD553C077EDB1BE524 /* Pods_FranklinBarbershopTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FranklinBarbershopTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54165412704C2F200311D59 /* FranklinBarbershop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranklinBarbershop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54165442704C2F200311D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F54165462704C2F200311D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F54165482704C2F200311D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F541654B2704C2F200311D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F541654D2704C2F500311D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F54165502704C2F500311D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54165522704C2F500311D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +69,18 @@
 		F54165612704C2F500311D59 /* FranklinBarbershopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FranklinBarbershopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F54165652704C2F500311D59 /* FranklinBarbershopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinBarbershopUITests.swift; sourceTree = "<group>"; };
 		F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinBarbershopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F54165752704C3CA00311D59 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		F541657A2704C4A100311D59 /* MainTabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCoordinator.swift; sourceTree = "<group>"; };
+		F541657C2704C4B100311D59 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		F541657F2704C4D200311D59 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		F54165812704C4DF00311D59 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F54165832704C50F00311D59 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F54165862704C54300311D59 /* AppointmentsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsCoordinator.swift; sourceTree = "<group>"; };
+		F54165872704C54300311D59 /* AppointmentsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewModel.swift; sourceTree = "<group>"; };
+		F54165882704C54300311D59 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		F541658D2704C54A00311D59 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F541658E2704C54A00311D59 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F541658F2704C54A00311D59 /* HomeCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +131,6 @@
 				DF6E47992C311692A00ED21B /* Pods-FranklinBarbershopTests.debug.xcconfig */,
 				88C86135526414370FAACB3E /* Pods-FranklinBarbershopTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,13 +159,10 @@
 		F54165432704C2F200311D59 /* FranklinBarbershop */ = {
 			isa = PBXGroup;
 			children = (
-				F54165442704C2F200311D59 /* AppDelegate.swift */,
-				F54165462704C2F200311D59 /* SceneDelegate.swift */,
+				F54165782704C48100311D59 /* Modules */,
+				F54165772704C3E600311D59 /* Resources */,
+				F54165742704C3B900311D59 /* System */,
 				F54165482704C2F200311D59 /* ViewController.swift */,
-				F541654A2704C2F200311D59 /* Main.storyboard */,
-				F541654D2704C2F500311D59 /* Assets.xcassets */,
-				F541654F2704C2F500311D59 /* LaunchScreen.storyboard */,
-				F54165522704C2F500311D59 /* Info.plist */,
 			);
 			path = FranklinBarbershop;
 			sourceTree = "<group>";
@@ -166,6 +182,75 @@
 				F54165672704C2F500311D59 /* FranklinBarbershopUITestsLaunchTests.swift */,
 			);
 			path = FranklinBarbershopUITests;
+			sourceTree = "<group>";
+		};
+		F54165742704C3B900311D59 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				F54165442704C2F200311D59 /* AppDelegate.swift */,
+				F54165752704C3CA00311D59 /* Coordinator.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		F54165772704C3E600311D59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F541654D2704C2F500311D59 /* Assets.xcassets */,
+				F541654F2704C2F500311D59 /* LaunchScreen.storyboard */,
+				F54165522704C2F500311D59 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F54165782704C48100311D59 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F541658C2704C54A00311D59 /* Home */,
+				F54165852704C54300311D59 /* Appointments */,
+				F541657E2704C4C300311D59 /* Profile */,
+				F54165792704C49300311D59 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F54165792704C49300311D59 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F541657A2704C4A100311D59 /* MainTabBarCoordinator.swift */,
+				F541657C2704C4B100311D59 /* MainTabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F541657E2704C4C300311D59 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F541657F2704C4D200311D59 /* ProfileCoordinator.swift */,
+				F54165812704C4DF00311D59 /* ProfileViewController.swift */,
+				F54165832704C50F00311D59 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F54165852704C54300311D59 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				F54165862704C54300311D59 /* AppointmentsCoordinator.swift */,
+				F54165882704C54300311D59 /* AppointmentsViewController.swift */,
+				F54165872704C54300311D59 /* AppointmentsViewModel.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		F541658C2704C54A00311D59 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F541658F2704C54A00311D59 /* HomeCoordinator.swift */,
+				F541658E2704C54A00311D59 /* HomeViewController.swift */,
+				F541658D2704C54A00311D59 /* HomeViewModel.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +364,6 @@
 			files = (
 				F54165512704C2F500311D59 /* LaunchScreen.storyboard in Resources */,
 				F541654E2704C2F500311D59 /* Assets.xcassets in Resources */,
-				F541654C2704C2F200311D59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,9 +491,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54165762704C3CA00311D59 /* Coordinator.swift in Sources */,
 				F54165492704C2F200311D59 /* ViewController.swift in Sources */,
+				F541658B2704C54300311D59 /* AppointmentsViewController.swift in Sources */,
+				F541657D2704C4B100311D59 /* MainTabBarController.swift in Sources */,
 				F54165452704C2F200311D59 /* AppDelegate.swift in Sources */,
-				F54165472704C2F200311D59 /* SceneDelegate.swift in Sources */,
+				F54165922704C54A00311D59 /* HomeCoordinator.swift in Sources */,
+				F54165822704C4DF00311D59 /* ProfileViewController.swift in Sources */,
+				F54165802704C4D200311D59 /* ProfileCoordinator.swift in Sources */,
+				F54165902704C54A00311D59 /* HomeViewModel.swift in Sources */,
+				F541658A2704C54300311D59 /* AppointmentsViewModel.swift in Sources */,
+				F54165842704C50F00311D59 /* ProfileViewModel.swift in Sources */,
+				F541657B2704C4A100311D59 /* MainTabBarCoordinator.swift in Sources */,
+				F54165912704C54A00311D59 /* HomeViewController.swift in Sources */,
+				F54165892704C54300311D59 /* AppointmentsCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,14 +541,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F541654A2704C2F200311D59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F541654B2704C2F200311D59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F541654F2704C2F500311D59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -591,10 +678,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKPAR8VJYY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FranklinBarbershop/Info.plist;
+				INFOPLIST_FILE = FranklinBarbershop/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +693,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -620,10 +707,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MKPAR8VJYY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = FranklinBarbershop/Info.plist;
+				INFOPLIST_FILE = FranklinBarbershop/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -635,7 +722,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
